@@ -1,0 +1,25 @@
+.program {
+    margin: 20px auto;
+    width: 100%;                /* Set a width for the container */
+    display: flex;
+    justify-content: space-around; /* Space images evenly */
+    gap: 20px;                 /* Add space between each program item */
+  }
+  
+  .program-item {
+    text-align: center;        /* Center-align each item */
+    flex-basis: 30%;           /* Control item width */
+  }
+  
+  .program-item img {
+    width: 100%;               /* Make the image responsive */
+    border-radius: 10px;       /* Round the corners */
+    box-shadow: 0px 4px 8px rgba(14, 6, 6, 0.1); /* Light shadow */
+  }
+  
+  .description {
+    margin-top: 10px;          /* Space between image and description */
+    font-size: 15px;           /* Font size for description */
+    color: blue;               /* Text color */
+  }
+  

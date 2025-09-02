@@ -1,0 +1,32 @@
+.members{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.members-left{
+    flex-basis: 40%;
+}
+.members-right{
+    flex-basis: 56%;
+}
+.members-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.members h3{
+    font-size: 600;
+    font-weight: 16px;
+    color: blue;
+}
+.members h2{
+    font-size: 35px;
+    color: rgb(255, 0, 123);
+    margin: 10px 0;
+    max-width: 400px;
+}
+.members p{
+    color: brown;
+    margin-bottom: 15px;
+}
